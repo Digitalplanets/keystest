@@ -1,0 +1,258 @@
+.container {
+  -webkit-transition: background-color 2s; /* For Safari 3.1 to 6.0 */
+  transition: background-color 2s;
+}
+
+.overlay {
+  margin-top: 100px;
+  margin-bottom: auto;
+  position: absolute;
+  top: 0;
+  height: max-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index:1;
+}
+
+.aboutblock {
+  padding: 10px 0;
+  padding-top: 2%;
+  padding-inline: 2%;
+  border: 1px solid white;
+  background-color: black;
+}
+
+.aboutbox {
+  padding-top: 14vh;
+  padding-inline: 15%;
+  float: center;
+  border-spacing: 5px;
+}
+
+.about {
+  display: inline-block;
+  color: white;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 6;
+}
+
+.headerright {
+  float: right;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 6;
+}
+
+.headerlink {
+  margin: 10px;
+  color: #fff;
+  background: none;
+  border: none;
+  font-size: large;
+  transition: 0.3s;
+}
+
+.walletlink {
+  margin-top: 10px;
+  margin-right: 5px;
+  background-color: white;
+  color: black;
+  border: none;
+  font-size: large;
+  transition: 0.3s;
+}
+
+.headerlink:active,
+.headerlink:focus,
+.headerlink:hover {
+  color: rgb(255, 230, 0);
+  border-color: #ffcc00;
+  border-inline: 2px solid #ffcc00;
+}
+
+.footer {
+  bottom: 0;
+  color: white;
+  margin: 1%;
+  position: absolute;
+}
+
+.lilcard {
+  font-size: 1rem;
+  border-radius: 10px;
+  margin: 1rem;
+  padding: 1.5rem;
+  min-width: 20px;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: 1s;
+  max-width: 300px;
+  opacity: 0;
+}
+
+.lilcard:hover,
+.lilcard:focus,
+.lilcard:active {
+  color: #ffcc00;
+  border-color: #ffcc00;
+  backdrop-filter: blur(10px);
+  text-decoration: underline;
+}
+
+.bg {
+  height: 100vh;
+  width: 100vw;
+}
+
+.bgvideo {
+  height: 90%;
+  width: 100%;
+  object-fit: contain;
+  filter: blur(100px);
+}
+
+.maxboxcard {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 10px;
+  height: max-content;
+  /*background-color: rgba(255, 255, 255, 0.1);*/
+  backdrop-filter: blur(10px);
+  /*box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);*/
+  /*border: 1px solid white;*/
+  border-radius: 0px;
+  transition: 0.5s;
+  opacity: 0;
+  width: clamp(300px,600px, 90vw);
+}
+
+.boxcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 10px;
+  width: clamp(300px,500px, 80vw);
+  height: max-content;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  /*box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);*/
+  border: 1px solid ;
+  border-radius: 0px;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.maxboxcard:hover,
+.maxboxcard:focus,
+.maxboxcard:active,
+.boxcard:hover,
+.boxcard:focus,
+.boxcard:active {
+  font-size: x-large;
+  color: 	#C5B358;
+  /*box-shadow: 0 5px 15px rgba(255, 255, 255, 0.8);*/
+}
+
+.dropdown {
+  margin-left: 2vw;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdowncontent {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  background-color: rgba(0, 0, 0, 0.95);
+  /*box-shadow: 0 5px 15px rgba(255, 255, 255, 0.8);*/
+  padding: 12px 16px;
+  z-index: 7;
+}
+
+.dropdown:hover .dropdowncontent {
+  display: block;
+}
+
+
+
+.aboutcard {
+  display: block;
+  background: black;
+}
+
+.imgcard {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.imgcard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.imgcontainer {
+  padding: 2px 16px;
+  
+}
+
+.welcome {
+  margin-top: 4%;
+}
+
+
+.newcard {
+  font-size: 1rem;
+  border-radius: 10px;
+  margin: 1rem;
+  padding: 0.5rem;
+  min-width: 20px;
+  text-align: left;
+  background: white;
+  color: black;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 022px;
+  transition: 1s;
+  max-width: 300px;
+  opacity: 0;
+}
+
+.newcard1 {
+  font-size: 1rem;
+  /*border-radius: 10px;*/
+  margin: 1rem;
+  padding: 0.5rem;
+  min-width: 20px;
+  text-align: left;
+  background: None;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 22px;
+  transition: 1s;
+  max-width: 300px;
+  opacity: 0;
+}

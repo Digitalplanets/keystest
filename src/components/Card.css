@@ -1,0 +1,69 @@
+.Card {
+    margin-top: 8px;
+    margin: 0 auto;
+    top: 4%;
+    left: 50%;
+    width: 280px;
+    height: auto;
+    background: black;
+    border-radius: 1px;
+    border: 1px solid white;
+    border-spacing: 4vh;
+    margin-bottom: 6%;
+}
+
+.upper-container {
+    /*margin-left: 32%;*/
+    height: 100px;
+    background: black;
+}
+
+.image-container img{
+    float: center;
+    background: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    padding: 3px;
+    margin-left: 32%;
+
+}
+
+img {
+    border: none;
+    margin-top: 4%;
+}
+
+.lower-container {
+    margin-top: 35px;
+    height: auto;
+    background: black;
+    text-align: center;
+}
+
+.lower-container h3, h4, p{
+    margin: 0;
+    padding: 3%;
+}
+
+.claimupper {
+    /*margin-left: 32%;*/
+    height: 100px;
+    background: black;
+}
+
+.claimlower {
+    margin-top: 60px;
+    height: 50%;
+    background: black;
+    text-align: center;
+}
+
+.claimlower h3, h4, p{
+    margin: 0;
+    padding: 4%;
+}
+
+.steez {
+    border: white;
+}

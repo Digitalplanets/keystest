@@ -1,0 +1,31 @@
+* {
+
+  font-family: 'vcr_osd_monoregular';
+}
+
+@font-face {
+  font-family: 'vcr_osd_monoregular';
+  src: url('../assets/vcr_osd_mono_1.001-webfont.woff2') format('woff2'),
+       url('../assets/vcr_osd_mono_1.001-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+input, select {
+  width: min(20em, 80vw);
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1 {
+  font-size: 3em;
+}
